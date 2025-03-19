@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Find the Best Restaurants</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <h1>ZOMATO</h1>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Menu</a></li>
+                <li><a href="#">Restaurants</a></li>
+                <li><a href="#">Login</a></li>
+                <li><a href="#">Signup</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="hero">
+        <h2>Discover Delicious Food & Best Restaurants</h2>
+        <input type="text" id="search" placeholder="Search food, restaurants...">
+        <button id="searchBtn">Search</button>
+    </section>
+    <section class="categories">
+        <h2>Popular Categories</h2>
+        <div class="category-list">
+            <div class="category" data-category="pizza"><img src="pizza.jpg" alt="Pizza">Pizza</div>
+            <div class="category" data-category="burger"><img src="burger.jpg" alt="Burgers">Burgers</div>
+            <div class="category" data-category="pasta"><img src="pasta.jpg" alt="Pasta">Pasta</div>
+            <div class="category" data-category="desserts"><img src="cake.webp" alt="Desserts">Desserts</div>
+            <div class="category" data-category="sandwich"><img src="sandwich.jpg" alt="Sandwiches">Sandwiches</div>
+            <div class="category" data-category="shakes"><img src="juice.jpg" alt="Shakes">Shakes</div>
+            <div class="category" data-category="chicken"><img src="chicken.jpg" alt="Chicken">Chicken</div>
+        </div>
+    </section>
+    <section class="menu-items">
+        <h2>Available Dishes</h2>
+        <div class="items-list">
+            <!-- Items will be dynamically added here -->
+        </div>
+    </section>
+    <section class="cart">
+        <h2>Your Cart</h2>
+        <ul id="cart-list"></ul>
+        <p>Total: ₹<span id="cart-total">0</span></p>
+        <button id="checkout">Checkout</button>
+    </section>
+    <footer>
+    <p>© 2025 ZOMATO. All rights reserved.</p>
+    </footer>
+</body>
+</html>

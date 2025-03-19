@@ -1,0 +1,199 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background: #f8f8f8;
+    color: #333;
+}
+
+/* Header Styling */
+header {
+    background: #ff0000;
+    padding: 15px 20px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #ddd;
+}
+
+/* Hero Section */
+.hero {
+    background: url('ingredients-near-pizza.jpg') center/cover;
+    padding: 80px 20px;
+    color: white;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.hero h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.hero input {
+    padding: 12px;
+    width: 70%;
+    max-width: 600px;
+    margin-top: 20px;
+    border-radius: 5px;
+    border: none;
+    font-size: 1em;
+}
+
+.hero button {
+    padding: 12px 30px;
+    margin-left: 10px;
+    background: #ff2200;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 1em;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.hero button:hover {
+    background-color: #e00000;
+}
+
+/* Categories Section */
+.categories {
+    padding: 30px 20px;
+}
+
+.category-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    max-width: 1200px;
+    margin: 20px auto;
+}
+
+.category {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    width: 150px;
+    text-align: center;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.category:hover {
+    transform: scale(1.05);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
+}
+
+.category img {
+    width: 120px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+/* Menu Items Section */
+.menu-items {
+    padding: 30px 20px;
+}
+
+.items-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+    max-width: 1200px;
+    margin: 20px auto;
+}
+
+.item {
+    width: 250px;
+    padding: 20px;
+    border-radius: 10px;
+    background: white;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.item:hover {
+    transform: scale(1.02);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
+}
+
+.item img {
+    width: 100%;
+    height: 180px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+/* Cart Section */
+.cart {
+    background: #fff3e0;
+    padding: 30px 20px;
+    margin-top: 30px;
+}
+
+.cart ul {
+    list-style: none;
+    padding: 0;
+}
+
+.cart ul li {
+    padding: 8px;
+    font-size: 18px;
+    border-bottom: 1px solid #ddd;
+}
+
+#checkout {
+    padding: 12px 30px;
+    background: #ff0000;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+#checkout:hover {
+    background-color: #e00000;
+}
+
+/* Footer */
+footer {
+    margin-top: 30px;
+    padding: 20px 20px;
+    background: #333;
+    color: white;
+}
